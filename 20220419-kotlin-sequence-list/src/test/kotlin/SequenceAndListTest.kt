@@ -130,8 +130,8 @@ class SequenceAndListTest {
 
     @Test
     fun collectionAndSequence_latteIsBest() {
-        val arr = (1..20000000)
-        val resultSize = 150
+        val arr = (1..10000000)
+        val resultSize = 1500
 
         val collection = arr.toList()
         val sequence = arr.asSequence()
